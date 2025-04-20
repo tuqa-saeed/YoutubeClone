@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="icons/menu.svg" alt="Menu" class="menu-icon">
+            <img src="icons/youtube-logo.svg" alt="YouTube Logo" class="youtube-logo">
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+            <button class="search-button">
+                <img src="icons/search.svg" alt="Search">
+            </button>
+           
+            <button class="voice-search-button">
+                <img src="icons/voice-search-icon.svg" alt="Voice Search">
+            </button>
+        </div>
+        <div class="header-right">
+            <img src="icons/upload.svg" alt="Upload">
+            <img src="icons/youtube-apps.svg" alt="YouTube Apps">
+            <img src="icons/notifications.svg" alt="Notifications">
+            <img src="icons/user-avatar.svg" alt="User Avatar" class="user-avatar">
+        </div>
+    </header>
+    <nav class="sidebar">
+        <div class="sidebar-link">
+            <img src="icons/home.svg" alt="Home">
+            <p>Home</p>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/shorts.svg" alt="Shorts">
+            <p>Shorts</p>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/subscriptions.svg" alt="Subscriptions">
+            <p>Subscriptions</p>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/library.svg" alt="Library">
+            <p>Library</p>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/history.svg" alt="History">
+            <p>History</p>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/your-videos.svg" alt="Your Videos">
+            <p>Your Videos</p>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/watch-later.svg" alt="Watch Later">
+            <p>Watch Later</p>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/liked-videos.svg" alt="Liked Videos">
+            <p>Liked Videos</p>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/show-more.svg" alt="Show more">
+            <p>Show more</p>
+        </div>
+    </nav>
+    <main>
+        <div class="tags-container">
+            <button class="tag active">All</button>
+            <button class="tag">Web Development</button>
+            <button class="tag">Object-oriented programming</button>
+            <button class="tag">APIs</button>
+            <button class="tag">Istighfar</button>
+            <button class="tag">Religious recitation</button>
+            <button class="tag">Live</button>
+            <button class="tag">Recently uploaded</button>
+            <button class="tag">Watched</button>
+            <button class="tag">New to you</button>
+        </div>
+        <div class="videos-container">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="Thumbnail 1">
+                    <div class="video-time">11:07</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="profile-pictures/channels4_profile.jpg" alt="Channel 1">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Login Form in HTML & CSS</p>
+                        <p class="video-author">Codehal</p>
+                        <p class="video-stats">2.1M views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="Thumbnail 2">
+                    <div class="video-time">1:19:26</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="profile-pictures/anasbukhash.jpg" alt="Channel 2">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">#ABtalks with Hannah El Zahed | Chapter 221</p>
+                        <p class="video-author">Anas Bukhash</p>
+                        <p class="video-stats">626K views &#183; 1 day ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-3.webp" alt="Thumbnail 3">
+                    <div class="video-time">2:02:21</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="profile-pictures/programmingwithmosh.jpg" alt="Channel 3">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Python Full Course for Beginners [2025]</p>
+                        <p class="video-author">Programming with Mosh</p>
+                        <p class="video-stats">634K views &#183; 2 months ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shorts-container">
+            <p class="shorts-title"><img src="icons/shorts-icon.svg" class="shorts-icon-title">Shorts</p>
+            <div class="shorts-grid">
+                <div class="short-preview">
+                    <div class="short-thumbnail-row">
+                        <img class="short-thumbnail" src="shorts-thumbnails/short-1.webp" alt="Short 1">
+                    </div>
+                    <div class="short-video-info">
+                        <p class="short-title">1 trillion messages!?</p>
+                        <p class="short-author">bytebytego</p>
+                    </div>
+                </div>
+                <div class="short-preview">
+                    <div class="short-thumbnail-row">
+                        <img class="short-thumbnail" src="shorts-thumbnails/short-2.webp" alt="Short 2">
+                    </div>
+                    <div class="short-video-info">
+                        <p class="short-title">Power of CSS</p>
+                        <p class="short-author">Kevin Powell</p>
+                    </div>
+                </div>
+                <div class="short-preview">
+                    <div class="short-thumbnail-row">
+                        <img class="short-thumbnail" src="shorts-thumbnails/short-3.webp" alt="Short 3">
+                    </div>
+                    <div class="short-video-info">
+                        <p class="short-title">Level 1 vs Level 99</p>
+                        <p class="short-author">ன்னு சொல்லுவாங்க</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
